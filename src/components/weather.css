@@ -1,0 +1,54 @@
+.data{
+    color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 70px;
+}
+body{
+    background-color: #04223f;
+}
+label{
+    font-size: 22px;
+}
+.weather-container{
+    margin-top: 25px;
+    background-color:rgba(255, 255, 255, 0.2);
+    width: 900px;
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block
+}
+h1{
+    color: #ccc;
+    
+}
+input{
+    width: 300px;
+    margin-right: 30px;
+    color: aliceblue;
+}
+.data h5{
+    margin: 0px;
+}
+ 
+.weather-card {
+
+    width: calc(24% - 10px);
+    margin: 15px;
+    padding-left: px;
+    padding-right: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    position: relative;
+    background-color: rgb(4, 34, 63,0.1);
+    box-shadow: 0 4px 8px rgba(206, 209, 211, 0.4);
+   
+  }
+
+  .data{
+    margin-left: 60px;
+  }
